@@ -64,3 +64,33 @@ video {
 #services{
   color: #3D485A;
 }
+
+.service-icon{
+  width: 100px;
+  height: 100px;
+  line-height:100px;
+  font-size:45px;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.color5 .service-icon,
+.color5.service-item ul li:nth-child(2):before{
+    background:#4d607f;
+}
+
+.color5 .service-icon:after{
+    border:3px solid #64758E;
+}
+
+.color6 .service-icon,
+.color6.service-item ul li:nth-child(2):before{
+    background:#4d607f;
+}
+
+.color6 .service-icon:after{
+    border:3px solid #64758E;
+}
