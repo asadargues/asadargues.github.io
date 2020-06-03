@@ -10,7 +10,7 @@
 
 .fa-download-cv{
 	font-size: 19px;
-    color: #52F0CB;
+    color: #31b7bc;
     top: 2px;
     position: relative;
 }
@@ -79,7 +79,7 @@ h3 {
 
 .color5 .service-icon,
 .color5.service-item ul li:nth-child(2):before{
-    background:#4d607f;
+    background:#31b7bc;
 }
 
 .color5 .service-icon:after{
@@ -88,7 +88,7 @@ h3 {
 
 .color6 .service-icon,
 .color6.service-item ul li:nth-child(2):before{
-    background:#4d607f;
+    background:#31b7bc;
 }
 
 .color6 .service-icon:after{

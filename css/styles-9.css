@@ -85,7 +85,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .color1 .service-icon,
 .color1.service-item ul li:nth-child(2):before{
-    background:#654FA0;
+    background:#31b7bc;
 }
 
 .color1 .service-icon:after{
@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .color2 .service-icon,
 .color2.service-item ul li:nth-child(2):before{
-    background:#30E5C2;
+    background:#31b7bc;
 }
 
 .color2 .service-icon:after{
@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .color3 .service-icon,
 .color3.service-item ul li:nth-child(2):before{
-    background:#3D485A;
+    background:#31b7bc;
 }
 
 .color3 .service-icon:after{
@@ -112,7 +112,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 .color4 .service-icon,
 .color4.service-item ul li:nth-child(2):before{
-    background:#4d607f;
+    background:#31b7bc;
 }
 
 .color4 .service-icon:after{
@@ -562,7 +562,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
 
 #filter-works ul li.active a,
 #filter-works ul li:hover a{
-    color:#52F0CB;
+    color:#31b7bc;
 }
 
 .masonry-wrapper{
@@ -1060,11 +1060,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#654fa0', end
 #main-footer{
     padding-top:50px;
     padding-bottom:40px;
-    background: #654fa0; 
-background: -moz-linear-gradient(-45deg, #654fa0 0%, #52f0cb 100%); 
-background: -webkit-linear-gradient(-45deg, #654fa0 0%,#52f0cb 100%); 
-background: linear-gradient(135deg, #654fa0 0%,#52f0cb 100%); 
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#654fa0', endColorstr='#52f0cb',GradientType=1 );
+    background: #31b7bc; 
 }
 
 .social-links {
