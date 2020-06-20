@@ -19,9 +19,9 @@ $(document).ready(function() {
   $('#home').height($(window).height()+50);
 
   if (window.location.pathname.includes('en.html')){
-    $.backstretch('./img/BG_HEADER_EN.jpg');
+    $.backstretch('./img/header_2.png');
   }else{
-    $.backstretch('./img/BG_HEADER_FR-2.jpg');
+    $.backstretch('./img/header_1.png');
   }
 
 
