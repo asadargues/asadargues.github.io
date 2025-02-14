@@ -18,9 +18,9 @@ $(document).ready(function() {
 $('#home').height($(window).height()+50);
 
   if (window.location.pathname.includes('en.html')){
-    $.backstretch('./img/photo_1.png');
+    $.backstretch('./img/photo_1.jpg');
   }else{
-    $.backstretch('./img/photo_2.png');
+    $.backstretch('./img/photo_2.jpg');
   }
 
 
