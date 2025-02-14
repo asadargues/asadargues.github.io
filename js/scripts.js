@@ -16,45 +16,7 @@ $(document).ready(function() {
   $.backstretch('http://demos.q-themes.net/graphista/v1.1.2/assets/images/header-bg.jpg');
   ==============================================*/
 
-  $('#home').height($(window).height()+50);
-
-  if (window.location.pathname.includes('en.html')){
-    $.backstretch('./img/photo_1.png');
-  }else{
-    $.backstretch('./img/photo_2.png');
-  }
-
-
-  $(window).scroll( function() {
-    var st = $(this).scrollTop(),
-      wh = $(window).height(),
-      sf = 1.2 - st/(10*wh);
-
-    $('.backstretch img').css({
-      'transform' : 'scale('+sf+')',
-      '-webkit-transform' : 'scale('+sf+')'
-    });
-
-    $('#home .container').css({ 'opacity' : (1.4 - st/400) });
-
-    if($(window).scrollTop() > ($(window).height()+50)){
-      $('.backstretch').hide();
-    }else{
-      $('.backstretch').show();
-    }
-
-  });
-
-  var st = $(this).scrollTop(),
-    wh = $(window).height(),
-    sf = 1.2 - st/(10*wh);
-
-  $('.backstretch img').css({
-    'transform' : 'scale('+sf+')',
-    '-webkit-transform' : 'scale('+sf+')'
-  });
-
-  $('#home .container').css({ 'opacity' : (1.4 - st/400) });
+ 
 
 
   /*============================================
