@@ -18,7 +18,7 @@ $(document).ready(function() {
 $('#home').height($(window).height()+50);
 
   if (window.location.pathname.includes('en.html')){
-    $.backstretch('./img/header_en.png');
+    $.backstretch('./img/header_1.png');
   }else{
     $.backstretch('./img/header_1.png');
   }
